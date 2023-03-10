@@ -7,7 +7,7 @@ margin:0;
 header{
 
     background-color: black;
-    height: 100px;
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,4 +46,12 @@ color:white;
 nav a:hover{
 
     color:goldenrod;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+
 }
