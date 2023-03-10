@@ -42,3 +42,8 @@ text-decoration: none;
 color:white;
 
 }
+
+nav a:hover{
+
+    color:goldenrod;
+}
