@@ -66,20 +66,48 @@ font-size: 40px;
 
       
 footer{
+        margin:none;
         text-align: center;
         padding: 3px;
         background-color: black;
-        color: gold;
       }
     
-.cnv p{
+.box1 p{
         margin-left: 10px;
-        text-align: justify;
-        color:white;
-      } 
-
-.fin h2{
-        font-family: 'Courier New', Courier, monospace;
         text-align: center;
-        color:grey;
-       } 
+        color:white;
+      }
+      
+.box2 h2 {
+
+color:white;
+
+}
+
+.box2 .red-social a{
+
+    display:inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: blanchedalmond;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+    text-align: center;
+    transition: all 300ms ease;
+    
+}
+
+.box2 .red-social a:hover{
+
+    color:yellow;
+    }
+
+.derechos{
+
+    color: gold;
+}
