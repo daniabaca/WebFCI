@@ -64,6 +64,22 @@ color:gray;
 font-size: 40px;
       }
 
+article{
+    margin-left: 10px;
+       }
+
+.box .img {
+margin-top: 10px;
+margin-bottom: 10px;
+width: 1240px;
+border-color: gray;
+border-radius: 1%;
+border-style:solid;
+}
+
+
+
+
       
 footer{
         margin:none;
